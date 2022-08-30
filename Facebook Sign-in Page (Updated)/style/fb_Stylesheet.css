@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+}
+
+main {
+    height: 70vh;
+    width: 80vh;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer {
+    height: 30vh;
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fb-logo {
+    flex: 0 0 50%;
+    text-align: left;
+}
+
+.fb-form {
+    flex: 0 0 40%;
+    text-align: center;
+}
+
+.fb-logo img {
+    max-width: 300px;
+}
+
+.fb-logo h2 {
+    font: 26px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 32px;
+}
+
+.fb-form .form-container {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1), 0 8px 16px rgb(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.fb-form .form-container input, .fb-form .form-container .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.footer-contents {
+    display: flex;
+    padding-left: 50px;
+    vertical-align: top;
+    margin-right: 0;
+}
